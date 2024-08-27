@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.all{
+    background-color: pink;
+}
+
+.container{
+background-color: pink;
+position: relative;
+width: 100vw;
+height: 80vh;
+}
+
+.div1{
+    background-color: pink;
+    border: 2px solid blue;
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    transition: all 4s ease 2s;
+}
+
+.div1:hover{
+    background-color: skyblue;
+    transform: rotate(30deg);
+}
+
+.div2{
+    background-color: pink;
+    border: 2px solid blue;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    transition: all 4s ease 2s;
+}
+
+.div2:hover{
+    background-color: skyblue;
+    transform: scale(1.5);
+    position: absolute;
+    top: 5rem;
+    right: 8rem;
+}
+
+.div3{
+    background-color: pink;
+    border: 2px solid blue;
+    display: inline-block;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+    transition: all 4s ease 2s;
+}
+
+.div3:hover{
+    background-color: skyblue;
+    transform: skew(45deg);
+}
+
+.div4{
+    background-color: pink;
+    border: 2px solid blue;
+    display: inline-block;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    right: 2rem;
+    transition: all 4s ease 2s;
+}
+
+.div4:hover{
+    background-color: skyblue;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: white;
+}
+
+footer{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    transition: all 4s ease 2s;
+}
+
+
+.img:hover{
+    transform: translate(200px);
+    border-radius: 50%;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
